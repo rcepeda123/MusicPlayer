@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2949635122E01B4A00456828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949635022E01B4A00456828 /* AppDelegate.swift */; };
-		2949635322E01B4A00456828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949635222E01B4A00456828 /* ViewController.swift */; };
 		2949635622E01B4B00456828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949635422E01B4B00456828 /* Main.storyboard */; };
 		2949635822E01B4D00456828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2949635722E01B4D00456828 /* Assets.xcassets */; };
 		2949635B22E01B4D00456828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949635922E01B4D00456828 /* LaunchScreen.storyboard */; };
 		2949636622E01B4D00456828 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949636522E01B4D00456828 /* MusicPlayerTests.swift */; };
 		2949637122E01B4D00456828 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949637022E01B4D00456828 /* MusicPlayerUITests.swift */; };
+		2949637F22E01C1700456828 /* GenreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949637E22E01C1700456828 /* GenreButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2949634D22E01B4A00456828 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2949635022E01B4A00456828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2949635222E01B4A00456828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2949635522E01B4B00456828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2949635722E01B4D00456828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2949635A22E01B4D00456828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2949636C22E01B4D00456828 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2949637022E01B4D00456828 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		2949637222E01B4D00456828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2949637E22E01C1700456828 /* GenreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				2949635022E01B4A00456828 /* AppDelegate.swift */,
-				2949635222E01B4A00456828 /* ViewController.swift */,
 				2949635422E01B4B00456828 /* Main.storyboard */,
+				2949637E22E01C1700456828 /* GenreButton.swift */,
 				2949635722E01B4D00456828 /* Assets.xcassets */,
 				2949635922E01B4D00456828 /* LaunchScreen.storyboard */,
 				2949635C22E01B4D00456828 /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2949635322E01B4A00456828 /* ViewController.swift in Sources */,
 				2949635122E01B4A00456828 /* AppDelegate.swift in Sources */,
+				2949637F22E01C1700456828 /* GenreButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
